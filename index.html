@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>YAY! It's BOGO</h2>
+
+    <!-- Box 1 -->
+    <div class="box" data-price="10">
+      <div class="top-row">
+        <span class="radio-title">1 Unit</span>
+        <span class="offer">10% OFF</span>
+      </div>
+      <p class="price">$10.00 USD <span class="strikethrough">$24.00</span></p>
+      <div class="details">
+        <select><option>Size</option><option>S</option><option>M</option></select>
+        <select><option>Colour</option><option>Black</option><option>White</option></select>
+      </div>
+    </div>
+
+    <!-- Box 2 - Most Popular -->
+    <div class="box popular" data-price="18">
+      <div class="top-row">
+        <span class="radio-title">2 Unit</span>
+        <span class="offer">20% OFF</span>
+        <span class="tag">MOST POPULAR</span>
+      </div>
+      <p class="price">$18.00 USD <span class="strikethrough">$48.00</span></p>
+      <div class="details">
+        <select><option>Size</option><option>S</option><option>M</option></select>
+        <select><option>Colour</option><option>Black</option><option>White</option></select>
+      </div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box" data-price="24">
+      <div class="top-row">
+        <span class="radio-title">3 Unit</span>
+        <span class="offer">30% OFF</span>
+      </div>
+      <p class="price">$24.00 USD <span class="strikethrough">$72.00</span></p>
+      <div class="details">
+        <select><option>Size</option><option>S</option><option>M</option></select>
+        <select><option>Colour</option><option>Black</option><option>White</option></select>
+      </div>
+    </div>
+
+    <p class="delivery">Free Delivery</p>
+    <div class="bottom-bar">
+      <span id="total">Total: $0.00</span>
+      <button id="cartBtn">+ Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
